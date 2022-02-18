@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tut</title>
+   </head>
+   <body>
+      {% load humanize %}
+      <h1>Numbers(apnumber function) :</h1>
+      {{"1" | apnumber}}<br>
+      {{"2" | apnumber}}<br>
+      {{"10" | apnumber}}<br>
+      <h1>integer comma:</h1>
+      {{"1000" | intcomma}}<br>
+      {{"200000" | intcomma}}<br>
+      {{"10000000" | intcomma}}<br>
+      <h1>integer word:</h1>
+      {{"1000000000" | intword}}<br>
+      {{"20000000000" | intword}}<br>
+      {{"10000000" | intword}}<br>
+   </body>
+</html>
